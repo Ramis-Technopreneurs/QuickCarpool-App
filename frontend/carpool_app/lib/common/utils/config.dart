@@ -1,0 +1,16 @@
+String _baseUrl = "http://192.168.0.130:3000/";
+String _api = "api/";
+String _login = "login";
+String _register = "register";
+String _registerDriver = "registerdriver/";
+String _users = "users";
+String _changePassword = "changepassword/";
+String _searchUser = "searchuser";
+String _requestrides = "requestrides";
+String loginApi = _baseUrl + _api + _login;
+String registerApi = _baseUrl + _api + _register;
+String userApi = _baseUrl + _api + _users;
+String changePasswordApi = _baseUrl + _api + _changePassword;
+String searchUserApi = _baseUrl + _api + _searchUser;
+String registerDriverApi = _baseUrl + _api + _registerDriver;
+String requestRideApi = _baseUrl + _api + _requestrides;
